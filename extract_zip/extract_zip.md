@@ -1,0 +1,18 @@
+# PythonでZIPファイルを解凍する方法
+
+Pythonの `zipfile` モジュールを使用して、
+ZIPファイルを解凍する方法を学習しました。
+
+医療画像AIでは、DICOMデータセットや画像データが
+ZIP形式で配布されることが多く、
+データ前処理として解凍処理は重要になります。
+
+---
+
+## 使用コード
+
+```python
+import zipfile
+
+with zipfile.ZipFile('DL_Python_2nd_250730.zip', 'r') as zip_ref:
+    zip_ref.extractall()
