@@ -12,7 +12,4 @@ ZIP形式で配布されることが多く、
 ## 使用コード
 
 ```python
-import zipfile
 
-with zipfile.ZipFile('DL_Python_2nd_250730.zip', 'r') as zip_ref:
-    zip_ref.extractall()
