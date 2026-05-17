@@ -122,6 +122,6 @@ plt.title(
 plt.show()
 ```
 ---
-#関数作成
+# 関数作成
 def affine_transform(img,sx,sy,angle,scale):
 画像変形する関数。
